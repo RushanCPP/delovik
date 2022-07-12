@@ -1,4 +1,5 @@
-package com.example.delovik.backend;
+package com.example.delovik.backend.model;
+
 
 import java.util.ArrayList;
 import java.util.List;

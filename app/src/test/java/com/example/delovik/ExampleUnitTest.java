@@ -2,13 +2,6 @@ package com.example.delovik;
 
 import org.junit.Test;
 
-import static org.junit.Assert.*;
-
-import androidx.lifecycle.MutableLiveData;
-
-import com.example.delovik.backend.Day;
-import com.example.delovik.backend.Schedule;
-
 /**
  * Example local unit test, which will execute on the development machine (host).
  *

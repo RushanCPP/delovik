@@ -5,9 +5,8 @@ import androidx.lifecycle.ViewModelProvider;
 
 import android.os.Bundle;
 import android.widget.TextView;
-import android.widget.Toast;
 
-import com.example.delovik.backend.ScheduleViewModel;
+import com.example.delovik.backend.viewmodel.ScheduleViewModel;
 
 public class MainActivity extends AppCompatActivity {
     @Override

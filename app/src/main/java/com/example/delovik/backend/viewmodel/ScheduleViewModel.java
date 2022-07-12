@@ -1,8 +1,12 @@
-package com.example.delovik.backend;
+package com.example.delovik.backend.viewmodel;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
+
+import com.example.delovik.backend.model.Day;
+import com.example.delovik.backend.model.Lesson;
+import com.example.delovik.backend.model.Schedule;
 
 import java.time.LocalTime;
 

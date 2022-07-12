@@ -1,10 +1,10 @@
-package com.example.delovik.backend;
+package com.example.delovik.backend.model;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class Schedule {
-    private List<Day> days;
+    private final List<Day> days;
     private String name;
 
     public List<Day> getDays() {
