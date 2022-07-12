@@ -1,11 +1,11 @@
-package com.example.delovik.backend.model.database;
+package com.example.delovik.backend.model.database.entity;
 
 import androidx.room.ColumnInfo;
 import androidx.room.Entity;
 import androidx.room.PrimaryKey;
 
-@Entity(tableName = "schedules")
-public class Schedules {
+@Entity(tableName = "lessons")
+public class Lessons {
     @PrimaryKey(autoGenerate = true)
     @ColumnInfo(name = "id")
     public int id;
