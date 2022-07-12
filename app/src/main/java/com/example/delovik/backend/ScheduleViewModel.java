@@ -7,6 +7,7 @@ import androidx.lifecycle.ViewModel;
 import java.time.LocalTime;
 
 public class ScheduleViewModel extends ViewModel {
+    int id;
     private final MutableLiveData<Schedule> scheduleMutableLiveData = new MutableLiveData<>(getValue());
     private Schedule getValue() {
         Schedule schedule = new Schedule("Schedule 1");
@@ -22,5 +23,9 @@ public class ScheduleViewModel extends ViewModel {
 
     public LiveData<Schedule> getScheduleMutableLiveData() {
         return scheduleMutableLiveData;
+    }
+
+    public void notifyChanges() {
+
     }
 }
